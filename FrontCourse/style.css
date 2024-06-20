@@ -1,0 +1,62 @@
+h1 {
+    color: crimson;
+    font-size: 3rem;
+}
+
+
+/* element selector */
+
+/* h2 {
+    color: blueviolet;
+} */
+/* p {
+    color: crimson;
+} */
+
+/* grouping selectors */
+/* h1, h2, p {
+    color: blueviolet;
+} */
+
+
+
+
+/* id selector & class selector */
+/* #top-header {
+    color: red;
+}
+#bottom-header {
+    color: blue;
+} */
+
+/* .red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+#first {
+    font-size: 60px;
+}
+
+.background {
+    background: coral;
+} */
+
+
+
+
+/* div {
+    background: darkgoldenrod;
+    color: darkred;
+    width: 200px;
+    border: 2px solid black;
+}
+span {
+    color: darksalmon;
+}
+.my-text {
+    background: darkslateblue;
+} */
