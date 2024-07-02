@@ -1,133 +1,175 @@
-/* inheritance
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+/* .paragraf{
+    background-color: antiquewhite;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding: 1,2,4;
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua;
+    border: 5px double firebrick;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.paragraf2{
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 5px double firebrick;
+} */
 
-body {
-    color: darkviolet;
-    font-family: monospace;
+/* -------------------------------------------------------------------------------- */
+
+/* .yek{
+    background-color: rgb(7, 98, 68);
+    padding-bottom: 20px;
+}
+.do{
+    background-color: rgb(181, 14, 187);
+    padding-top: 20px;
+    /* display: block; */
+    /* display: inline-block; */
+/* }*/
+
+/* h2{
+    background-color: chocolate;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: none; */
+/* } */ 
+
+/* ___________________________________________________________________________________________ */
+/* .gradient {
+    background: linear-gradient(60deg, rgb(20, 200 ,200), #22ff90, yellow);
+    background: radial-gradient(circle at center, rgb(56, 200, 20), #ff8d22);
+    height: 400px;
+    cssgradient.com
+
+} */
+ 
+/* ________________________________________________________________________________________ */
+/* positions */
+/* div {
+    background: steelblue;
+    padding: 10px;
+    /* position: relative; */
+    
+/* } */
+
+/* #first {
+    background: tan;
+    /* position: relative;
+    top: 50px;
+    left: 20px; */
+    /* position: sticky;
+    top: 10px;
+    z-index: 1;
+}
+
+#second {
+    background: sienna;
+    position: relative;
+}
+
+span {
+    background: silver;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+h1 {
+    background: rebeccapurple;
+    width: 150px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+} */
+
+/* ------------------------------------------------------------------------------------ */
+/* .container {
+    width: 300px;
+    height: 400px;
+    border: 2px red solid;
+    position: relative;
+}
+
+#first {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#second {
+    width: 100px;
+    height: 100px;
+    background: rebeccapurple;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#third {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    z-index: 3;
+} */
+
+/* ------------------------------------------------------------------------------------- */
+
+/* pseudo class */
+
+/* a {
+    text-decoration: none; 
+    color: black;
+ }
+ 
+ #link:hover {
+     color: blueviolet;
+     border: 2px solid blueviolet;
+     border-radius: 3px;
+     background: linear-gradient(yellow , rgb(186, 8, 8));
+ }
+ 
+ p:hover {
+     color: blueviolet;
+     border: 2px solid blueviolet;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+ p::first-line {
+    color: chocolate;
+ }
+ p::first-letter {
+    font-size: 3rem;
+ } */
+
+ /* --------------------------------------------------------------------------- */
+ /* p {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px #afa0a0;
 }
 
 div {
-    color: dimgray;
-}
-
-p {
-    color: fuchsia;
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
-/* ------------------------------------------------------------------------------------ */
-/* universal selector */
-
-/* * {
-    padding: 0;
-    margin: 0;
-}
-
-h1 {
-    margin: 20px;
-} */
-
-/* ------------------------------------------------------------------------------------------- */
-/* #paragraf{
-    background-color: aqua;
-    background: lightblue center fixed no-repeat url("Images/Untitled.jpeg") ;
-} */
- /* ---------------------------------------------------------------------------------------------- */
-/* colors
- p{
-    background-color: rgb(red, green, blue);
-    background-color: rgba(red, green, blue, alpha);
-    background-color: rgba(20, 20, 170, 0.985)
-    /* https://flatuicolors.com/ */
-    /* https://coolors.co/ */
- /* } */ 
- /* ------------------------------------------------------------------------------------------------ */
-
- /* .bironi {
-    background: salmon;
-    width: 300px;
+    background: coral;
+    width: 200px;
     height: 200px;
-}
-.daroni {
-    background: seagreen;
-    width: 100%;
-    height: 50%;
-} */
-/* ---------------------------------------------------------------------------------------------------- */
-
-/* em */
-/* 1 em = 16 px */
-/* 1 rem = 16px */
-
-/* div {
-    font-size: 10px;
-}
-.first {
-    font-size: 2rem;
-}
-.second {
-    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px #afa0a0;
 } */
 
-/* vw = view width */
-/* vh = view height */
-
-/* div {
-    background: rebeccapurple;
-    width: 50vw;
-    height: 50vh;
-
-    height: calc(100vh - 60px);
-} */
-
-/* GOOGLE FONT AND FONT FAMILY */
-/* font iran yekan farsi */
-
-/* Webfont: Yekan */
- @font-face {
-	font-family: 'Yekan';
-	src:	url('Yekan.eot'); /* IE9 Compat Modes */
-	src:	url('Yekan-Font-master/Yekan.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-			url('Yekan-Font-master/Yekan.woff2') format('woff2'), /* Modern Browsers */
-			url('Yekan-Font-master/Yekan.woff') format('woff'), /* Modern Browsers */
-			url('Yekan.otf') format('opentype'), /* Open Type Font */	
-			url('Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
-	font-weight: normal;
-	font-style: normal;
-	text-rendering: optimizeLegibility;
-	font-display: auto;
-}
-
-p{
-    font-family: 'Yekan';
-} 
-
-/* body{
-    text-align: ;
-    text-indent: 15px;
-} */
-
-/* .first {
-    line-height: 5.5rem;
-    text-decoration: overline;
-}
-
-.second {
-    letter-spacing: 1em;
-    text-decoration: underline;
-}
-
-.third {
-    word-spacing: 20px;
-    text-decoration: line-through;
-}
-
-.forth {
-    text-transform: capitalize;
-}
-
-a {
-    font-size: 3rem;
-    text-decoration: none;
-} */
+/* css3gen.com
+cssgenerator.com */
