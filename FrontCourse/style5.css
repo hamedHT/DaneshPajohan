@@ -1,0 +1,102 @@
+/* https://fontawesome.com/ */
+
+/* .fa-trash-alt {
+    font-size: 3rem;
+    color: brown;
+}
+
+caniuse.com */
+
+/* ------------------------------------------------------------------------------ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: silver;
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap: wrap; */
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.child {
+    font-size: 2rem;
+    background: snow;
+    margin: 5px;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+div{
+    width: 100%;
+    color: blue;
+    background: red;
+    font-size: 2rem;
+}
+
+
+/* media query */
+@media (max-width: 480px) {
+    div {
+        width: 300px;
+        color: seagreen;
+        background: fuchsia;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    div {
+        width: 470px;
+        background: gold;
+    }
+    p {
+        color: green;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    div {
+        width: 760px;
+        background: lawngreen;
+    }
+
+    p {
+        color: lightseagreen;
+    }
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+div {
+    width: 200px;
+    height: 50px;
+    background: orange;
+    /* animation-name: hamed;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+    animation: hamed 10s infinite;
+}
+
+@keyframes hamed {
+    50% {
+        width: 500px;
+        border-radius: 10px;
+        background: lawngreen;
+        height: 100px;
+    }
+    75% {
+        width: 50px;
+        border-radius: 50%;
+        background: lightcoral;
+    }
+    100% {
+        width: 200px;
+        border-radius: 0;
+    }
+}
