@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            width: 200px;
+            height: 0px;
+            background-color: violet;
+            transition: 0.5s;
+        }
+
+        #box1{
+            width: 200px;
+            height: 400px;
+            background-color: rgb(162, 117, 226);
+            font-size: larger;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- <button id="btn1" onclick="alert('welcome')">click me</button>
+    <p onclick="txt(this)" id="text1">text</p>
+    <div id="box"></div>
+    <select id="web">
+        <option value="html">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JAVASCRIPT">JAVASCRIPT</option> -->
+    <!-- </select> -->
+
+    <!-- ------------------------------------------------------------------------------ -->
+
+    <!-- <a href="https://github.com/" id="link">danesh pajouhan</a>
+    <div id="box1">
+        <p id="text">danesh pajouhan</p>
+    </div> -->
+
+    <!-- ----------------------------------------------------------------------------- -->
+
+    <h2 id="test"></h2>
+    <button id="btn_close">close</button>
+    <script>
+        // var btn = document.getElementById('btn1')
+        // btn.onclick = function(){
+        //     document.write('javascript')
+        // }
+        // function txt(x){
+        //     x.innerHTML = 'Danesh pajouhan'
+        // }
+
+        // var box = document.getElementById('box')
+        // btn.onclick = function(){
+        //     box.style.height = '200px'
+        // } 
+
+        // btn.ondblclick = function(){
+        //     box.style.height = '0px'
+        // }
+        
+        // var web = document.getElementById('web')
+        // web.onchange = function(){
+        //     text1.innerHTML = web.value;
+        // }
+        // ------------------------------------------------------------------------------
+        // var i = 0
+        // var link = document.getElementById('link');
+        // link.addEventListener('click',clc)
+        
+        // function clc(e){
+        //     e.preventDefault();
+        //     i++;
+        //     if(i > 0){
+        //         link.removeEventListener('click',clc)
+        //     }
+        // }    
+
+        // var box1 = document.getElementById('box1')
+        // var text = document.getElementById('text')
+
+        // box1.addEventListener('click',function(){
+        //     alert('div Alert');
+        // },true)
+        // text.addEventListener('click',function(){
+        //     alert('text alert')
+        // },true)
+
+        // -----------------------------------------------------------------------------
+
+        // var test = document.getElementById('test')
+        // var i = 10
+        // test.innerHTML = 'you will directed to github site '+i+' second';
+
+        // function redirect(){
+        //     i--;
+        //     test.innerHTML = 'you will directed to github site '+i+' second';
+        //     if(i == 0){
+        //         clearInterval(timer);
+        //         window.location ='https://github.com/'
+        //     }}
+        //     var timer = setInterval(redirect,1000)
+
+        // function clock(){
+        //     var d = new Date();
+        //     test.innerHTML = d.toLocaleString();
+        // }
+        // var timer = setInterval(clock,1000)
+
+        // --------------------------------------------------------------------------------------
+        // BOM
+        document.getElementById("test").innerHTML =
+        "Browser inner window width: " + window.innerWidth + "px<br>" +
+        "Browser inner window height: " + window.innerHeight + "px";
+        alert(screen.width)
+
+        var w1 = window.open('https://github.com/','_blank','width=100,heigth=200,top=125,left=300')
+        var btn_close = document.getElementById('btn_close')
+        btn_close.onclick = function(){
+            w1.close()
+        }
+
+        alert(window.location.href)
+        alert(window.location.pathname)
+        alert(window.location.port)
+        alert(window.location.protocol)
+        alert(window.location.reload(false))
+        alert(window.history.back)
+        alert(window.history.forward)
+        alert(window.location.assign('https://github.com/'))
+        alert(window.location.replace('https://github.com/'))
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
