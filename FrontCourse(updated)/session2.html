@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my title</title>
+</head>
+<body>
+    <img src="../img/test.png" alt="test">
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>LastNme</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>danesh</td>
+            <td>yaran</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>danesh</td>
+            <td>yaran</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <div class="style1">
+        test1
+    </div>
+    <div class="style1">
+        test2
+    </div>
+
+    <span id="style2">test1</span>
+    <span>test2</span>
+    <p>this is a <span style="color: crimson;">test</span> example</p>
+     <!-- block ana inline -->
+
+    <!-- ---------------------------------------------------------------------------------------- -->
+
+    <form action="/" enctype="multipart/form-data">
+        <label for="user">نام کاربری</label>
+        <input id="user" type="text" value="defult_user" name="username" placeholder="نام کاربری">
+        <br>
+        <label for="pass">رمز عبور </label>        
+        <input id="pass" type="password" name="password" placeholder="رمز عبور">
+        <br>
+        <input type="email" required>
+        <br>
+        <input type="number" step="5" min="10" max="100">
+        <input type="range" step="10" min="10" max="100">
+        <br>
+        <input type="search" size="5" minlength="2" maxlength="11">
+        <br>
+        <input type="time">
+        <input type="date">
+        <br>
+        <input type="url">
+
+        <br>
+        <input type="reset">
+        <input type="submit" value="ارسال">
+
+        <br>
+        <span>نام زبان مورد نظر خود را وارد کنید</span>
+        <label for="html">html</label>
+        <input type="radio" id="html" name="lang" value="html">
+        <br>
+
+        <label for="css">css</label>
+        <input type="radio" id="css" name="lang" value="css">
+        <br>
+
+        <br>
+        <span>نام زبان مورد نظر خود را وارد کنید</span>
+        <label for="html">html</label>
+        <input type="checkbox" id="html" name="lang" value="1" checked>
+        <br>
+
+        <label for="css">css</label>
+        <input type="checkbox" id="css" name="lang" value="2" disabled>
+        <br>
+
+        <br>
+        <label for="address">ادرس</label>
+        <textarea name="address" id="" rows="20" cols="50">ادرس</textarea>
+
+        <br>
+        <select name="province" id="">
+            <option value="isfahan" selected>اصفهان</option>
+            <option value="tehran">تهران</option>
+            <option value="shiraz">شیراز</option>
+        </select>
+
+        <br>
+        <input type="file" name="files" accept="image/*">
+    </form>
+
+    <!-- inspect & semantic tags -->
+</body>
+</html>
